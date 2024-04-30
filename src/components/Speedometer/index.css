@@ -1,0 +1,67 @@
+/* Write your CSS here */
+.container {
+  background-color: #07080c;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.heading {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 48px;
+  font-style: italic;
+}
+.speed {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+}
+.speed-img {
+  height: 125px;
+  width: 300px;
+}
+.speed-limit {
+  color: white;
+  font-size: 12px;
+  font-family: 'Roboto';
+  margin-bottom: 48px;
+}
+.Acc-Button {
+  background-color: #0b69ff;
+  color: white;
+  border: 0px;
+  border-radius: 8px;
+  height: 32px;
+  width: 108px;
+  font-family: 'Roboto';
+  margin-right: 20px;
+}
+.Apply-button {
+  background-color: transparent;
+  border: 1px solid #cbd5e1;
+  color: #94a3b8;
+  font-family: 'Roboto';
+  border-radius: 8px;
+  height: 32px;
+  width: 108px;
+}
+
+@media screen and (min-width: 768px) {
+  .speed {
+    font-size: 32px;
+  }
+  .speed-img {
+    width: 700px;
+    height: 300px;
+  }
+  .heading {
+    font-size: 48px;
+  }
+  .speed-limit {
+    font-size: 16px;
+  }
+}
